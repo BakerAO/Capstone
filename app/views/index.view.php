@@ -7,7 +7,7 @@
 <body>
     <?php require 'partials/nav.php'; ?>
     <header>
-        <h1>Prototype</h1>
+        <h1>Capstone</h1>
     </header>
     
 </body>

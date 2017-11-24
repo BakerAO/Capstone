@@ -7,9 +7,13 @@ class Application{
         static::$registry[$key] = $value;
     }
     public static function get($key){
-        if (! array_key_exists($key, static::$registry)){
-            throw new Exception('Key not found');
+        try{
+            if(array_key_exists($key, static::$registry)){
+                return static::$registry[$key];
+            }
+        }catch(\Exception $e){
+            $blah = $e->getMessage();
         }
-        return static::$registry[$key];
+        
     }
 }

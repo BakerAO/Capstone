@@ -6,7 +6,7 @@ class PagesController{
         view('index');
     }
     public function about(){
-        $company = 'Fyury';
+        $company = 'EIP10';
         view('about', ['company' => $company]);
     }
     public function basic(){
