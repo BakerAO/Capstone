@@ -17,6 +17,8 @@
     </div>
     <br />
     <?php foreach($frames as $frame): ?>
+        <img src="\public\assets\frame_pictures\<?= $frame->frame_id; ?>.jpg" alt="<?= $frame->model; ?>" height="180" width="300">
+        <br />
         <strong>
         <?php echo $frame->make . " "; ?>
         <?php echo $frame->model; ?>
