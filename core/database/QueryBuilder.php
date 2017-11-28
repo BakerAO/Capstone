@@ -35,4 +35,22 @@ class QueryBuilder{
             die($e->getMessage());
         }
     }
+    public function selectBrand($frameMake){
+        try{
+            //$statement = $this->pdo->prepare("select * from frames where (make = {$frameMake})");
+            if ($frameMake == 'Burberry'){
+                $statement = $this->pdo->prepare("select * from frames where frame_id >= 1006 and frame_id <= 1010");
+            }
+            if ($frameMake == 'Oakley'){
+                $statement = $this->pdo->prepare("select * from frames where frame_id >= 1001 and frame_id <= 1005");
+            }
+            if ($frameMake == 'Ray-Ban'){
+                $statement = $this->pdo->prepare("select * from frames where frame_id >= 1011 and frame_id <= 1015");
+            }
+            $statement->execute();
+            return $statement->fetchAll(PDO::FETCH_OBJ);
+        }catch(\PDOException $e){
+            die($e->getMessage());
+        }
+    }
 }

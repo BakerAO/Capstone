@@ -1,8 +1,9 @@
 <!doctype html>
 <html>
 <head> 
-    <title>Prototype</title>
+    <?php require "partials/bs.php"; ?>
     <link rel="stylesheet" type="text/css" href="/public/css/about.css">
+    <title>Prototype</title>
 </head>
 <body>
     <?php require 'partials/nav.php'; ?>

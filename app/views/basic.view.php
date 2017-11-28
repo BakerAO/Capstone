@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head> 
+    <?php require "partials/bs.php"; ?>
     <title>Prototype</title>
     <style> 
         header{
