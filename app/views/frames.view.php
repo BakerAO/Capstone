@@ -38,6 +38,9 @@
             <?php echo "Gender: " . $frame->gender; ?>
             <br />
             <?php echo "Price: " . $frame->retail_price; ?>
+            <form method='POST' action='/cart'>
+                <button type="submit" name="btn_addFrame" value="<?= $frame->frame_id; ?>">Add To Cart</button>
+            </form>
             <br /><br />
         <?php endforeach; ?>
     </div>

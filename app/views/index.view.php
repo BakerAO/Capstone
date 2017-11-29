@@ -13,7 +13,23 @@
         </div>
     </div>
     <div class="container container-fluid">
-        <a class="text-center" href="http://github.com/Rexomnis/Capstone">github.com/Rexomnis/Capstone</a>
+        <a class="text-center" href="http://github.com/Rexomnis/Capstone">My Github</a>
+        <br />
+        <a class="text-center" href="/public/assets/FrameStore.pdf">Slide Show</a>
+        <br />
+        User_Frame = <?= $_SESSION['user_frame']; ?><br />
+        User_Cart = 
+            <?php foreach($_SESSION['user_cart'] as $cart) : ?>
+                <?= $cart; ?> 
+            <?php endforeach; ?>
+            <br />
+        Cart_Total = <?= $_SESSION['cart_total']; ?>
+        <br />
+    </div>
+    <div style="text-align:center;">
+        <form method='POST' action='/'>
+            <button type="submit" name="btn_clearSession" value="clear">Clear Session</button>
+        </form>
     </div>
 </body>
 </html>

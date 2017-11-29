@@ -53,4 +53,15 @@ class QueryBuilder{
             die($e->getMessage());
         }
     }
+    public function showCartFrames($table, $cartFrames){
+        try{
+                $cartString = "'" . implode("', '", $cartFrames) . "'";
+                $statement = $this->pdo->prepare("select * from {$table} where frame_id in ({$cartString})");
+                $statement->execute();
+                return $statement->fetchAll(PDO::FETCH_OBJ);
+        }catch(\PDOException $e){
+                die($e->getMessage());
+        }
+    }
+
 }

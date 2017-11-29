@@ -5,6 +5,10 @@ class PagesController{
     public function home(){
         view('index');
     }
+    public function clearSession(){
+        session_destroy();
+        view('index');
+    }
     public function about(){
         $company = 'EIP10';
         view('about', ['company' => $company]);
