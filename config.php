@@ -2,10 +2,10 @@
 
 return [
     'database' => [
-        'name' => 'prototype',
-        'username' => 'root',
-        'password' => '',
-        'connection' => 'mysql:host=192.168.1.112',
+        'name' => 'capstone',
+        'username' => 'remote',
+        'password' => 'remoteRoot2018',
+        'connection' => 'mysql:host=10.0.0.88',
         'options' => [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
         ]
