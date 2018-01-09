@@ -10,6 +10,8 @@
     <header>
         <h1>Contact Us</h1>
     </header>
-    <p><a href="https://github.com/BakerAO" target="_blank">My Github</a></p>
+    <center>
+    <p><a href="https://github.com/BakerAO" target="_blank">Github</a></p>
+    </center
 </body>
 </html> 
