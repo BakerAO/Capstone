@@ -10,6 +10,6 @@
     <header>
         <h1>About <?= $company ?></h1>
     </header>
-    <a href="https://en.wikipedia.org/wiki/Euler%27s_identity"><center>Euler's Identity</center></a>
+    <a href="https://en.wikipedia.org/wiki/Euler%27s_identity" target ="_blank"><center>Euler's Identity</center></a>
 </body>
 </html>

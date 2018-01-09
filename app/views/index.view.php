@@ -13,9 +13,9 @@
         </div>
     </div>
     <div class="container container-fluid">
-        <a class="text-center" href="http://github.com/Rexomnis/Capstone">My Github</a>
+        <a class="text-center" href="http://github.com/Rexomnis/Capstone" target="_blank">My Github</a>
         <br />
-        <a class="text-center" href="/public/assets/FrameStore.pdf">Slide Show</a>
+        <a class="text-center" href="/public/assets/FrameStore.pdf" target="_blank">Slide Show</a>
         <br />
         User_Frame = <?= $_SESSION['user_frame']; ?><br />
         User_Cart = 
