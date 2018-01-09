@@ -9,6 +9,7 @@
     <?php require 'partials/nav.php'; ?>
     <header>
         <h1>Contact Us</h1>
-    </header> 
+    </header>
+    <p><a href="https://github.com/BakerAO" target="_blank">My Github</a></p>
 </body>
 </html> 

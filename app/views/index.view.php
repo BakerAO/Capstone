@@ -13,7 +13,7 @@
         </div>
     </div>
     <div class="container container-fluid">
-        <a class="text-center" href="http://github.com/BakerAO/Capstone" target="_blank">My Github</a>
+        <a class="text-center" href="http://github.com/BakerAO/Capstone" target="_blank">BakerAO/Capstone</a>
         <br />
         <a class="text-center" href="/public/assets/FrameStore.pdf" target="_blank">Slide Show</a>
         <br />
