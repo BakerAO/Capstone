@@ -8,7 +8,7 @@ class PagesController{
     public function clearSession(){
         session_destroy();
         #view('index');
-        redirect('index');
+        redirect('');
     }
     public function about(){
         $company = 'EIP10';
