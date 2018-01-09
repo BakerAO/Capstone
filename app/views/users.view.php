@@ -3,7 +3,7 @@
 <head> 
     <?php require "partials/bs.php"; ?>
     <link rel="stylesheet" type="text/css" href="/public/css/users.css">
-    <title>Prototype</title>
+    <title>Users</title>
 </head>
 <body>
     <?php require 'partials/nav.php'; ?>

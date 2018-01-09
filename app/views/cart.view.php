@@ -27,7 +27,7 @@
         <br />
         <?php echo "Gender: " . $frame->gender; ?>
         <br />
-        <?php echo "Price: " . $frame->retail_price; ?>
+        <?php echo "Price: $" . $frame->retail_price; ?>
         <br /><br />
     <?php endforeach; ?>
     </center> 

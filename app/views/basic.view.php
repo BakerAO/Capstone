@@ -2,7 +2,7 @@
 <html>
 <head> 
     <?php require "partials/bs.php"; ?>
-    <title>Prototype</title>
+    <title>Basic PHP</title>
     <style> 
         header{
             background:#e3e3e3;

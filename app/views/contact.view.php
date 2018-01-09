@@ -3,7 +3,7 @@
 <head> 
     <?php require "partials/bs.php"; ?>
     <link rel="stylesheet" type="text/css" href="/public/css/contact.css">
-    <title>Prototype</title>
+    <title>Contact</title>
 </head>
 <body>
     <?php require 'partials/nav.php'; ?>
