@@ -14,6 +14,7 @@
     <div style="text-align:center;">
         <strong><?php echo "Total: $" . $_SESSION['cart_total']; ?></strong>
     </div>
+    <center>
     <?php foreach($frames as $frame): ?>
         <img src="\public\assets\frame_pictures\<?= $frame->frame_id; ?>.jpg" alt="<?= $frame->model; ?>" height="180" width="300">
         <br />
@@ -28,6 +29,7 @@
         <br />
         <?php echo "Price: " . $frame->retail_price; ?>
         <br /><br />
-    <?php endforeach; ?> 
+    <?php endforeach; ?>
+    </center> 
 </body>
 </html>
